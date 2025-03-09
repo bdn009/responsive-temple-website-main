@@ -21,14 +21,68 @@
    <body>
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
-
+         <nav class="nav container">
+            <a href="#" class="navLogo"><i class="ri-ancient-gate-line"></i>
+               <span>Temple</span>
+            </a>
+            <div class="navMenu" id="navMenu">
+               <ul class="navList">
+                  <li class="navItem">
+                     <a href="#home" class="navLink active-link">Home</a>
+                  </li>
+                  <li class="navItem">
+                     <a href="#about" class="navLink">About</a>
+                  </li>
+                  <li class="navItem">
+                     <a href="#services" class="navLink">Services</a>
+                  </li>
+                  <li class="navItem">
+                     <a href="#menu" class="navLink">Menu</a>
+                  </li>
+                  <li class="navItem">
+                     <a href="#contact" class="navLink">Contact</a>
+                  </li>
+               </ul>
+               <div class="navClose"><i class="ri-close-line navClose" id="navClose"></i></div>
+            </div>
+            <div class="navToggle" id="navToggle">
+               <i class="ri-apps-2-line"></i>
+            </div>
+            
+         </nav>
       </header>
 
       <!--==================== MAIN ====================-->
       <main class="main">
          <!--==================== HOME ====================-->
          <section class="home">
+            <img src="assets/img/img-bg.svg" alt="" class="homeBg">
+            <div class="homeContainer container">
+               <div class="homeData">
+                  <h1 class="homeTitle">
+                     Welcome To <br> Temple
+                  </h1>
+                  <p class="homeDecription">
+                     The temple is an attractive tourist place 
+                     where you could visit and connect to the 
+                     pure land of the environment, you will 
+                     experience peace and harmony.
+                  </p>
+                  <a href="#" class="homeButton">Explore Place</a>
 
+                  <img src="assets/img/lantern-1.svg" alt="" class="homeLantern1">
+                  <img src="assets/img/lantern-2.svg" alt="" class="homeLantern2">
+               </div>
+               <div class="homeImages">
+                  <img src="assets/img/img-1.svg" alt="" class="homeImage1">
+                  <img src="assets/img/img-2.svg" alt="" class="homeImage2">
+                  <img src="assets/img/img-3.svg" alt="" class="homeImage3">
+                  <img src="assets/img/img-4.svg" alt="" class="homeImage4">
+                  <img src="assets/img/img-5.svg" alt="" class="homeImage5">
+                  <img src="assets/img/img-6.svg" alt="" class="homeImage6">
+
+               </div>
+            </div>
          </section>
       </main>
 
@@ -36,10 +90,10 @@
       
       
       <!--=============== GSAP ===============-->
-      <script src=""></script>
+      <script src="assets/js/gsap.min.js"></script>
 
       <!--=============== SAKURA JS ===============-->
-      <script src=""></script>
+      <script src="assets/js/sakura.min.js"></script>
       
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
