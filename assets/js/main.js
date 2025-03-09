@@ -47,3 +47,8 @@ gsap.from('.homeLantern2', 1.5, {opacity: 0, x: -70, delay: 3.5, ease: 'back.out
 
 /*=============== SAKURA ANIMATION ===============*/
 const sakura=new Sakura('.sakuraPetals')
+
+// bg music
+const bgMusic = new Audio('audio.mp3');
+bgMusic.loop = true;
+bgMusic.play();
