@@ -49,6 +49,8 @@ gsap.from('.homeLantern2', 1.5, {opacity: 0, x: -70, delay: 3.5, ease: 'back.out
 const sakura=new Sakura('.sakuraPetals')
 
 // bg music
-const bgMusic = new Audio('audio.mp3');
-bgMusic.loop = true;
-bgMusic.play();
+const homeButton=document.getElementById('homeButton').addEventListener('click',() =>{
+    const bgMusic=new Audio('audio.mp3');
+    bgMusic.play();
+    bgMusic.volume=0.2
+})

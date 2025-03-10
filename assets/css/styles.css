@@ -47,6 +47,8 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--black-color);
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
 }
 
 ul {
@@ -247,7 +249,7 @@ img {
   position: fixed;
   left: 0;
   top: 0;
-  width: 100vw;
+  width: 90vw;
   height: 100vh;
   overflow: hidden;
   z-index: 10000;
